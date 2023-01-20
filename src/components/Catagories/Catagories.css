@@ -1,0 +1,55 @@
+.cat{
+    padding: 40px 0;
+    display: flex;
+    justify-content:center;     
+
+}
+
+
+
+
+.cat .div1{
+    border-radius: 10px;
+    background-color: #DBDEE0;
+    display: flex;
+   width: 30%;
+   text-align: start;
+   align-items: center;
+   height: 170px;
+   margin:0 20px;
+
+}
+
+
+.cat .div1 img{
+    border-radius: 20px;
+    width: 60%;
+    padding: 10px;
+    height: 100%;
+}
+.cat .div1 div{
+    padding-left: 10px;
+
+}
+.cat h2{
+    font-size: 35px;
+}
+.cat h4{
+    margin: 7px 0;
+}
+
+.cat .div1 div p{
+    font-weight: bold;
+    color: gray;
+    transition: .3s;
+}
+
+
+.cat .div1:hover p{
+    background-color:#EE6148;
+    transform: scale(110%);
+    padding: 10px 8px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}

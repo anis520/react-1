@@ -1,0 +1,123 @@
+footer{
+  width: 100%;
+  padding: 80px 10%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+ 
+  
+}
+
+@media (max-width: 480px) {
+    
+ 
+
+
+}
+
+
+
+footer .div1{
+    text-align: start;
+    width: 25%;
+     text-transform: uppercase;
+ }
+
+footer .div1 p{
+    margin: 20px 0;
+    color: rgba(209, 207, 207, 0.904);
+     font-size: 28px;
+     font-weight: bold; 
+  
+
+}
+footer .div1 p span{
+    color: rgb(238, 97, 72);
+}
+footer .div1 .title{
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+}
+
+
+footer .div1 .div1 {
+    background-image: url('https://appradar.com/wp-content/uploads/wpe-uploads/App-Store-Google-Play-Icons.png');
+    background-repeat: no-repeat;
+    width: 133px;
+    display: inline-block;
+    height: 38px;
+    margin-right: 5px;
+    border-radius: 6px;
+    border: 1px solid ghostwhite;
+
+    background-position: -127px -58px;
+}
+
+
+footer .div1 .div2 {
+    background-image: url('https://appradar.com/wp-content/uploads/wpe-uploads/App-Store-Google-Play-Icons.png');
+    background-repeat: no-repeat;
+    width: 118px;
+    display: inline-block;
+    height: 38px;
+    border-radius: 6px;
+    background-position: -278px -58px;
+    border: 1px solid ghostwhite;
+}
+footer .div2{
+
+text-align: start;
+
+
+}
+footer .div2 h4{
+    font-size: 22px;
+    color: rgb(202, 198, 198);
+}
+
+footer .div2 p{
+     color: rgba(202, 198, 198, 0.842);
+     font-size:15px;
+     margin: 5px 0;
+}
+
+
+
+
+footer .div3{
+ color: white;
+ text-align: start;
+
+}
+footer .div3 h4{
+    font-size: 22px;
+    color: rgb(202, 198, 198);
+}
+
+footer .div3 p{
+     color: rgba(202, 198, 198, 0.842);
+     font-size:15px;
+     margin: 5px 0;
+}
+footer .div4{
+
+    color: white;
+    text-align: start;
+}
+footer .div4 h4{
+    font-size: 22px;
+    color: rgb(202, 198, 198);
+}
+
+footer .div4 p{
+     color: rgba(202, 198, 198, 0.842);
+     font-size:15px;
+     margin: 5px 0;
+}
+footer .div4 p>*{
+    margin-right: 10px;
+}
+
+
+

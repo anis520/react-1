@@ -1,0 +1,30 @@
+.seller{
+margin: 40px auto;
+width: 85%;
+
+text-align: start;
+}
+
+
+.seller h4{
+
+font-size: 40px;
+color: #3f3d3d;
+margin-top: 60px;
+
+
+}
+.seller p{
+    font-size: 22px;
+    color: rgba(201, 194, 194, 0.87);
+    font-weight: 500;
+    margin-bottom: 60px;
+
+}
+
+
+.seller .icon>*{
+    font-size: 100px;
+    color: #3f3d3dc9;
+    margin: 0 40px;
+}

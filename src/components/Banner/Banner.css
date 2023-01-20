@@ -1,0 +1,42 @@
+
+div{
+    position: relative;
+}
+
+div img{
+     object-fit: cover;
+}
+
+
+
+div .info{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    
+    text-align: start;
+}
+div .info h2{
+    margin-bottom: 30px;
+    font-size: 44px;
+    color: white;
+}
+
+div .a{
+background-color:#EE6148;
+padding: 10px;
+color: white;
+font-size: 18px;
+font-weight: bold;
+border-radius: 7px;
+transition: .3s;
+border: 2px solid #EE6148;
+
+}
+
+div .a:hover{
+    background-color:#DAE0FF;
+    border: 2px solid #EE6148;
+    color:#EE6148;
+    
+}

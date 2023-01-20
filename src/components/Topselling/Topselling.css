@@ -1,0 +1,90 @@
+.topsell {
+    margin: 20px 0;
+    scroll-behavior: smooth;
+}
+
+.topsell p{
+    text-transform: uppercase;
+    font-size: 32px;
+    color:#555252 ;
+    font-weight: bold;
+}
+
+.topsell h6{
+    font-size: 18px;
+    color: #808080e7;
+    margin-bottom: 30px;
+}
+
+
+.rows{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.rows div{
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+    transition: .5s;
+ 
+}
+
+.rows div:hover{
+  transform: translateY(-15px);
+}
+
+.rows div::before {
+    content: '';
+    background-color: #dbdee0c7;
+    position: absolute;
+    top: 20px;
+    transition: .5s;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    opacity: 0;
+}
+.rows div:hover::before{
+    opacity: 100%;     
+       
+}
+
+
+
+
+.rows div img {
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    margin: auto;
+     
+}
+
+
+.rows div .name{
+    margin-top: 20px;
+    font-size: 27px;
+}
+
+.rows div p{
+    font-size: 18px;
+}
+
+
+.rows div .icon {
+    opacity: 0;
+    transition: .5s;
+    position: absolute;
+    top: 30%;
+    color: white;
+    font-size: 50px;
+     left: 43%;
+}
+.rows div:hover .icon{
+    opacity: 100%;
+   
+ 
+}
